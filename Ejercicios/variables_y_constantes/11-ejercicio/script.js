@@ -5,14 +5,29 @@
 Declara una variable let llamada contador con valor 0. Increméntala en 1 tres veces (sin usar bucles). Muestra el resultado.
  */
 
+//Reasignación básica
 let contador = 0;
 
-let resultado = (contador + 1) ;
-console.log(resultado);
+contador = contador + 1;
+contador = contador + 1;
+contador = contador + 1;
 
-let resultado2 = resultado + 1;
-console.log(resultado2);
+console.log(contador);
 
-let resultado3 = resultado2 + 1;
-console.log(resultado3);
+//Operador de asignación compuesta
+// let contador = 0;
 
+// contador += 1;
+// contador += 1;
+// contador += 1;
+
+// console.log(contador);
+
+//Operador de Incremento
+// let contador = 0;
+
+// contador++;
+// contador++;
+// contador++;
+
+// console.log(contador);
